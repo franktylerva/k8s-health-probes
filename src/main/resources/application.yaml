@@ -24,10 +24,3 @@ management:
       group:
         readiness:
           include: "readinessState,db,rabbit,redis"
-
-  health:
-    show-components: always
-
-  web:
-    exposure:
-      include: "*"
