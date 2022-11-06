@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}
+data:
+  SPRING_DATASOURCE_URL: jdbc:postgresql://{{ .Release.Name }}-postgresql:5432/postgres
+  SPRING_REDIS_HOST: {{ .Release.Name }}-redis-master
+  SPRING_RABBITMQ_HOST: {{ .Release.Name }}-rabbitmq
+  
