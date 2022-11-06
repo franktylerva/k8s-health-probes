@@ -1,5 +1,5 @@
 # k8s-health-probes
-This application is an example of using k8s probes with a Spring Boot Application the correct way.  This eaxample uses a minikube cluster but any k8s cluster should work with this example.  The example has a dependency on postgresql, rabbitmq, and redis.  It demostrates how to use k8s liveness and readiness probes to control the state the application on a k8s cluster.
+This application is an example of using k8s probes with a Spring Boot Application the correct way.  This example uses a minikube cluster but any k8s cluster should work.  The example has a dependency on postgresql, rabbitmq, and redis.  It demonstrates how to use k8s liveness and readiness probes to control the state the application on a k8s cluster.
 
 Start a minikube cluster.
 ```
